@@ -1,0 +1,1 @@
+db.Restaurant.updateMany({"grades.grade":"B"},{$set:{"grades.$.grade":"A"}})

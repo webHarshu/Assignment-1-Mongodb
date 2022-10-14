@@ -1,0 +1,1 @@
+db.Restaurant.find({'name':{$regex:/^Caf/}},{_id:0,'name':1,'cuisine':1,'address.coord':1})

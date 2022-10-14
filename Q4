@@ -1,0 +1,1 @@
+db.Restaurant.find().skip(5).limit(5).pretty()

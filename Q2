@@ -1,0 +1,1 @@
+db.Restaurant.find().sort({name:1}).pretty()
