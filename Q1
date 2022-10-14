@@ -1,1 +1,4 @@
+1) Write a MongoDB query to display the fields restaurant_id, name, and zip code but exclude the field _id for all the documents in the collection restaurant.
+
 db.Restaurant.find({},{_id:0,restaurant_id:1,name:1,zipcode:1}).pretty()
+
