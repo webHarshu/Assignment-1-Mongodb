@@ -1,1 +1,3 @@
+5) Write a MongoDB query to find the restaurants who achieved a score more than 90.
+
 db.Restaurant.find({grades:{$elemMatch:{score:{$gt:90}}}},{_id:0,name:1}).pretty()
