@@ -1,1 +1,3 @@
+8) Write a MongoDb query to update grade B to A in all documents.
+
 db.Restaurant.updateMany({"grades.grade":"B"},{$set:{"grades.$.grade":"A"}})
